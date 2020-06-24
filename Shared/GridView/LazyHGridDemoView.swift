@@ -10,7 +10,7 @@ import SwiftUI
 struct LazyHGridDemoView: View {
     var body: some View {
         ScrollView {
-            LazyHGrid(rows: [GridItem(.adaptive(minimum: 110))]) {
+            LazyHGrid(rows: Array(repeating: GridItem(), count: 20)) {
                 ForEach((1...100), id: \.self) {
                     Text("\($0)")
                         .frame(width: 60, height: 60)
