@@ -11,8 +11,8 @@ struct LazyHGridDemoView: View {
     var body: some View {
         ScrollView {
             LazyHGrid(rows: Array(repeating: GridItem(), count: 20)) {
-                ForEach((1...100), id: \.self) {
-                    Text("\($0)")
+                ForEach((1...100), id: \.self) { index in
+                    Text("\(index)")
                         .frame(width: 60, height: 60)
                 }
             }

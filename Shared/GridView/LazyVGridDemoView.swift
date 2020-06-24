@@ -11,9 +11,15 @@ struct LazyVGridDemoView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: Array(repeating: GridItem(), count: 4)) {
-                ForEach((1...100), id: \.self) {
-                    Text("\($0)")
+                ForEach((1...100), id: \.self) { index in
+                    Text("\(index)")
                         .frame(width: 60, height: 60)
+                        .onAppear {
+                            debugPrint("onAppear: \(index)")
+                        }
+                        .onDisappear {
+                            debugPrint("onDisappear: \(index)")
+                        }
                 }
             }
         }
