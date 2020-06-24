@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4216D8F024A36D2C00753EB8 /* LazyVGridItemFixedDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216D8EF24A36D2C00753EB8 /* LazyVGridItemFixedDemoView.swift */; };
+		4216D8F224A36E4000753EB8 /* LazyVGridItemFlexibleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216D8F124A36E4000753EB8 /* LazyVGridItemFlexibleDemoView.swift */; };
+		4216D8F424A370B400753EB8 /* LazyVGridItemAdaptiveDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216D8F324A370B400753EB8 /* LazyVGridItemAdaptiveDemoView.swift */; };
 		426A38D024A1FFB000EE9301 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A38CF24A1FFB000EE9301 /* Tests_iOS.swift */; };
 		426A38DB24A1FFB000EE9301 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A38DA24A1FFB000EE9301 /* Tests_macOS.swift */; };
 		426A38DD24A1FFB000EE9301 /* SwiftUI_LazyGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A38B424A1FFAE00EE9301 /* SwiftUI_LazyGridApp.swift */; };
@@ -17,6 +20,8 @@
 		426A38E224A1FFB000EE9301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A38B624A1FFAF00EE9301 /* Assets.xcassets */; };
 		4279156724A30DB4004DEB88 /* LazyVGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */; };
 		4279156924A30ECE004DEB88 /* LazyHGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */; };
+		427A6BC924A3662800730176 /* LazyVGridHeaderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A6BC824A3662800730176 /* LazyVGridHeaderDemoView.swift */; };
+		427A6BCB24A366DE00730176 /* LazyVGridFooterDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427A6BCA24A366DE00730176 /* LazyVGridFooterDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4216D8EF24A36D2C00753EB8 /* LazyVGridItemFixedDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridItemFixedDemoView.swift; sourceTree = "<group>"; };
+		4216D8F124A36E4000753EB8 /* LazyVGridItemFlexibleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridItemFlexibleDemoView.swift; sourceTree = "<group>"; };
+		4216D8F324A370B400753EB8 /* LazyVGridItemAdaptiveDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridItemAdaptiveDemoView.swift; sourceTree = "<group>"; };
 		426A38B424A1FFAE00EE9301 /* SwiftUI_LazyGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LazyGridApp.swift; sourceTree = "<group>"; };
 		426A38B524A1FFAE00EE9301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		426A38B624A1FFAF00EE9301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +61,8 @@
 		426A38DC24A1FFB000EE9301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridDemoView.swift; sourceTree = "<group>"; };
 		4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridDemoView.swift; sourceTree = "<group>"; };
+		427A6BC824A3662800730176 /* LazyVGridHeaderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridHeaderDemoView.swift; sourceTree = "<group>"; };
+		427A6BCA24A366DE00730176 /* LazyVGridFooterDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridFooterDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +171,11 @@
 			children = (
 				4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */,
 				4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */,
+				427A6BC824A3662800730176 /* LazyVGridHeaderDemoView.swift */,
+				427A6BCA24A366DE00730176 /* LazyVGridFooterDemoView.swift */,
+				4216D8EF24A36D2C00753EB8 /* LazyVGridItemFixedDemoView.swift */,
+				4216D8F124A36E4000753EB8 /* LazyVGridItemFlexibleDemoView.swift */,
+				4216D8F324A370B400753EB8 /* LazyVGridItemAdaptiveDemoView.swift */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -322,8 +337,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4216D8F424A370B400753EB8 /* LazyVGridItemAdaptiveDemoView.swift in Sources */,
 				4279156724A30DB4004DEB88 /* LazyVGridDemoView.swift in Sources */,
+				427A6BCB24A366DE00730176 /* LazyVGridFooterDemoView.swift in Sources */,
+				427A6BC924A3662800730176 /* LazyVGridHeaderDemoView.swift in Sources */,
 				4279156924A30ECE004DEB88 /* LazyHGridDemoView.swift in Sources */,
+				4216D8F224A36E4000753EB8 /* LazyVGridItemFlexibleDemoView.swift in Sources */,
+				4216D8F024A36D2C00753EB8 /* LazyVGridItemFixedDemoView.swift in Sources */,
 				426A38DF24A1FFB000EE9301 /* ContentView.swift in Sources */,
 				426A38DD24A1FFB000EE9301 /* SwiftUI_LazyGridApp.swift in Sources */,
 			);
