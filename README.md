@@ -1,5 +1,6 @@
 # SwiftUI_LazyGrid
-It is a demo app for LazyVGrid and LazyHGrid
+It is a demo app for LazyVGrid and LazyHGrid.
+
 The image was reproduced in Xcode11.5.
 
 ## Preview
