@@ -15,6 +15,8 @@
 		426A38E024A1FFB000EE9301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A38B524A1FFAE00EE9301 /* ContentView.swift */; };
 		426A38E124A1FFB000EE9301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A38B624A1FFAF00EE9301 /* Assets.xcassets */; };
 		426A38E224A1FFB000EE9301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A38B624A1FFAF00EE9301 /* Assets.xcassets */; };
+		4279156724A30DB4004DEB88 /* LazyVGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */; };
+		4279156924A30ECE004DEB88 /* LazyHGridDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		426A38D624A1FFB000EE9301 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A38DA24A1FFB000EE9301 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		426A38DC24A1FFB000EE9301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridDemoView.swift; sourceTree = "<group>"; };
+		4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				426A38B424A1FFAE00EE9301 /* SwiftUI_LazyGridApp.swift */,
 				426A38B524A1FFAE00EE9301 /* ContentView.swift */,
+				4279156524A30D9E004DEB88 /* GridView */,
 				426A38B624A1FFAF00EE9301 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +154,15 @@
 				426A38DC24A1FFB000EE9301 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4279156524A30D9E004DEB88 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				4279156624A30DB4004DEB88 /* LazyVGridDemoView.swift */,
+				4279156824A30ECE004DEB88 /* LazyHGridDemoView.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4279156724A30DB4004DEB88 /* LazyVGridDemoView.swift in Sources */,
+				4279156924A30ECE004DEB88 /* LazyHGridDemoView.swift in Sources */,
 				426A38DF24A1FFB000EE9301 /* ContentView.swift in Sources */,
 				426A38DD24A1FFB000EE9301 /* SwiftUI_LazyGridApp.swift in Sources */,
 			);
